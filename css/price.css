@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins:wght@400;500;600;700&family=Red+Hat+Display:wght@400;700;900&display=swap');
+
+body{
+    background-color: black;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    height: 800px;
+}
+.left {
+    display: inline-block;
+    /* border: 2px solid aqua; */
+    position: absolute;
+    left: 34px;
+    top: 24px;
+}
+
+.left img {
+    width: 80px;
+    filter: invert(100%);
+    padding-left: 39px;
+    cursor: pointer;
+}
+
+.left div {
+    text-align: center;
+    line-height: 21px;
+    font-size: 24px;
+}
+
+.mid {
+    display: block;
+    width: 46%;
+    margin: 20px auto;
+    /* border: 2px solid chartreuse; */
+}
+
+.right {
+    position: fixed;
+    right: 34px;
+    top: 32px;
+    display: inline-block;
+    /* border: 2px solid blanchedalmond; */
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 24px;
+}
+
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 34px 11px;
+}
+
+
+
+.navbar li a:hover {
+    text-decoration: underline;
+    text-decoration-color: gold;
+    text-underline-offset: 10px;
+    transition: 0.3s;
+}
+
+
+.btn {
+    margin: 0px 9px;
+    background-color: black;
+    /* color: white; */
+    padding: 3px 4px;
+    border: 2px solid rgb(255, 191, 0);;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+
+}
+
+.right button{
+    padding: 9px;
+    background-color: #F9AC54;
+}
+
+.right button:hover{
+    background-color:rgb(255, 166, 0);
+    
+}
+
+#back{
+    text-decoration: none;
+    color: #ABDF3A;
+    padding: 0px 15px;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 23px;
+    margin-left: 16px;
+
+
+}
+.forall{
+    background-color: #80808038;
+/* border: 2px solid red; */
+    display: inline-block;
+    padding: 29px;
+    margin: 18px;
+    border-radius: 23px;
+    box-shadow: 0 1px 21px #898686d1;
+}
+
+.price__cards{
+    margin-top: 77px;
+}
+#slogo1{
+    /* border: 2px solid white; */
+    font-size: 2.75rem;
+    -webkit-text-stroke: 1px  hsl(180, 4%, 72%);
+    color: transparent;
+    letter-spacing: 1.5px;
+}
+
+.slogo {
+    margin: auto;
+    width: 507px;}
+    
+#slogo1 span{
+    color: white;
+}
+    
+    
+.prc_img{
+        width: 48px;
+        border: 3px solid white;
+    border-radius: 50%;
+    padding: 2px;
+    
+}
+
+.firstcard img{
+    background-color:#ABDF3A;
+}
+.secondcard img{
+    background-color: gold;
+}
+
+.thirdcard img{
+    background-color: #880808;
+}
+.pricing__list{
+    list-style: none;
+    margin-bottom: 25px;
+}
+#prc_head{
+    width: 329px;
+    margin: auto;
+    font-size: 3.25rem;
+    font-family: 'Kaushan Script', cursive;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    color: hsl(79, 72%, 55%);
+    /* border: 2px solid white; */
+}
+
+
+.firstcard:hover{
+    border:2px solid #ABDF3A;
+    transition:  0.3s; 
+    cursor: pointer;
+}
+.secondcard:hover{
+    border:2px solid gold;
+    transition:  0.3s; 
+    cursor: pointer;
+}
+.thirdcard:hover{
+    border:3px solid #880808;
+    transition:  0.3s; 
+    cursor: pointer;
+
+}
+.price_cards{
+    width: 1026px;
+    margin: auto;
+}
+
+
+.pricing__list i{
+    color: #ABDF3A;
+}
+
+
+.price_cards a{
+    text-decoration: none;
+    border: 2px solid white;
+    padding: 8px;
+    color: white;
+    background-color: #ABDF3A;
+}
+
+.firstcard a:hover{
+    color: black;
+}
+.secondcard a:hover{
+    color: black;
+    background-color:gold;
+}
+.thirdcard a:hover{
+    color: black;
+    background-color: #880808;
+}
+
+.pricing__title{
+    /* -webkit-text-stroke: 1px #ABDF3A; */
+    color: transparent;
+}
+.firstcard h1{
+    -webkit-text-stroke: 1px #ABDF3A;
+
+}
+.secondcard h1{
+    -webkit-text-stroke: 1px gold;
+
+}
+.thirdcard h1{
+    -webkit-text-stroke: 1px white;
+    color: #880808;
+}
