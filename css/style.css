@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background: url('../imgs/Untitled design.jpg');
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+
+.left {
+    display: inline-block;
+    /* border: 2px solid aqua; */
+    position: absolute;
+    left: 34px;
+    top: 24px;
+}
+
+.left img {
+    width: 80px;
+    filter: invert(100%);
+    padding-left: 39px;
+    cursor: pointer;
+}
+
+.left div {
+    text-align: center;
+    line-height: 21px;
+    font-size: 24px;
+}
+
+.mid {
+    display: block;
+    width: 46%;
+    margin: 20px auto;
+    /* border: 2px solid chartreuse; */
+}
+
+.right {
+    position: absolute;
+    right: 34px;
+    top: 32px;
+    display: inline-block;
+    /* border: 2px solid blanchedalmond; */
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 24px;
+}
+
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 34px 11px;
+}
+
+
+
+.navbar li a:hover {
+    text-decoration: underline;
+    text-decoration-color: gold;
+    text-underline-offset: 10px;
+    transition: 0.3s;
+}
+
+
+.btn {
+    margin: 0px 9px;
+    background-color: black;
+    /* color: white; */
+    padding: 3px 4px;
+    border: 2px solid rgb(255, 191, 0);;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+
+}
+
+.right button{
+    padding: 9px;
+    background-color: #F9AC54;
+}
+
+.right button:hover{
+    background-color:rgb(255, 166, 0);
+    
+}
+
+.btn:hover {
+    background-color: rgb(31, 30, 30);
+}
+
+
+.container {
+    border: 2px solid white;
+    margin: 102px 80px;
+    padding: 75px;
+    width: 33%;
+    border-radius: 28px;
+    box-shadow: 2px;
+}
+
+.form-group input {
+    font-family: 'Baloo Bhai', cursive;
+    text-align: center;
+    display: block;
+    width: 368px;
+    padding: 2px;
+    border: 2px solid black;
+    margin: 11px auto;
+    font-size: 21px;
+    border-radius: 8px;
+}
+
+.form-group input:focus{
+    box-shadow: 0 0 0 2px rgb(243, 219, 82);
+}
+
+.form-group input:focus::placeholder{
+    color:#d2d2d2;
+}
+.container h1 {
+    text-align: center;
+}
+
+.container button {
+    display: block;
+    width: 75%;
+    margin: 20px auto;
+}
+
+
+.review{
+    background-color: #1f2125;
+    margin: 449px 80px 0px 173px;
+    padding: 20px 69px 56px 106px;
+}
+
+.review_container> span{
+    font-size: 6rem;
+    color:#f9ac54 ;
+}
+
+.review_content h4{
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: white;
+}
+
+.reviewrate span{
+    font-size: 1.5rem;
+    color:#f9ac54 ;
+
+}
+
+
+.reviewfooter{
+    margin-top: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:2rem;
+}
+
+.reviewmember{
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.reviewmember img{
+    max-width: 60px;
+    border-radius: 100%;
+
+}
+
+.reviewmemdetails{
+    margin-bottom: 0;
+}
+
+.reviewnav{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+
+}
+
+.reviewnav span{
+    font-size: 2rem;
+    color:#f9ac54 ;
+    cursor: pointer;
+}
+
+.footer__group{
+/* border: 2px solid ; */
+background-color: #141517;
+    padding: 57px;
+
+}
+
+
+.footer__social{
+    text-align: center;
+    margin-bottom: 32px;
+}
+.footer__social a{
+    color: #afa69c;
+    margin: 9px;
+    padding: 17px;
+    border-radius: 31px;
+    /* background-color: black; */
+    text-decoration: none;
+}
+
+
+.footer__social i {
+     font-size: 26px;
+}
+
+.footer__copy{
+    padding-left: 119px;
+
+}
