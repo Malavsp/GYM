@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins:wght@400;500;600;700&family=Red+Hat+Display:wght@400;700;900&display=swap');
+
+body{
+    background-color: black;
+    color: white;
+    font-family: "Poppins", sans-serif;
+
+}
+
+
+.left {
+    display: inline-block;
+    /* border: 2px solid aqua; */
+    position: absolute;
+    left: 34px;
+    top: 24px;
+}
+
+.left img {
+    width: 80px;
+    filter: invert(100%);
+    padding-left: 39px;
+    cursor: pointer;
+}
+
+.left div {
+    text-align: center;
+    line-height: 21px;
+    font-size: 24px;
+}
+
+.mid {
+    display: block;
+    width: 46%;
+    margin: 20px auto;
+    /* border: 2px solid chartreuse; */
+}
+
+.right {
+    position: fixed;
+    right: 34px;
+    top: 32px;
+    display: inline-block;
+    /* border: 2px solid blanchedalmond; */
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 24px;
+}
+
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 34px 11px;
+}
+
+
+
+.navbar li a:hover {
+    text-decoration: underline;
+    text-decoration-color: gold;
+    text-underline-offset: 10px;
+    transition: 0.3s;
+}
+
+
+.btn {
+    margin: 0px 9px;
+    background-color: black;
+    /* color: white; */
+    padding: 3px 4px;
+    border: 2px solid rgb(255, 191, 0);;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+
+}
+
+.right button{
+    padding: 9px;
+    background-color: #F9AC54;
+}
+
+.right button:hover{
+    background-color:rgb(255, 166, 0);
+    
+}
+
+.container{
+/* border: 2px solid white; */
+padding: 61px 0px;
+}
+
+#back{
+    text-decoration: none;
+    color: #ABDF3A;
+    padding: 0px 15px;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 23px;
+    margin-left: 16px;
+
+}
+.slogo {
+    margin: auto;
+    width: 507px;}
+
+#prg_head{
+    width: 329px;
+    margin: auto;
+    font-size: 3.25rem;
+    font-family: 'Kaushan Script', cursive;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    color: hsl(79, 72%, 55%);
+    /* border: 2px solid white; */
+}
+
+#slogo1{
+    /* border: 2px solid white; */
+    font-size: 2.75rem;
+    -webkit-text-stroke: 1px  hsl(180, 4%, 72%);
+    color: transparent;
+    letter-spacing: 1.5px;
+}
+
+.program_cards{
+    /* border: 2px solid white; */
+    width: 1067px;
+    margin: auto;
+    padding: 25px;
+}
+
+.program_cards h3{
+    display: inline-block;
+    margin: 0px 0px 13px 10px;
+}
+
+.forall{
+    background-color: #80808038;
+    height: 251px;
+    /* border: 2px solid red; */
+    display: inline-block;
+    width: 187px;
+    margin: 16px;
+    padding: 20px;
+    border-radius: 23px;
+    box-shadow: 0 1px 21px #898686d1;
+}
+
+
+.program_cards div:hover{
+    border:2px solid #ABDF3A;
+    transition:  0.3s; 
+    cursor: pointer;
+}
+
+
+#slogo1 span{
+    color: white;
+}
+.prg_img{
+    width: 58px;
+    height: 52px;
+}
+
+
+.firstcard h3{
+    margin-top: 57px;
+}
+
+.thirdcard h3{
+    margin-top: 55px;
+}
+
